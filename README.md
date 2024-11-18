@@ -11,7 +11,9 @@
     <h1>Service Provider Sign-Up</h1>
     <form id="signupForm">
       <label for="email">Email Address *</label>
-      <input type="email" id="email" name="email" required> /n
+      <input type="email" id="email" name="email" required> 
+
+      <br> 
 
       <label for="name">Name *</label>
       <input type="text" id="name" name="name" required>
