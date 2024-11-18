@@ -18,6 +18,8 @@
       <label for="name">Name *</label>
       <input type="text" id="name" name="name" required>
 
+      <br> 
+
       <label for="state">State *</label>
       <select id="state" name="state" required>
         <option value="">Select a state</option>
@@ -26,22 +28,34 @@
         <!-- Add more states as needed -->
       </select>
 
+      <br> 
+
       <label for="specialty">Specialty *</label>
       <input type="text" id="specialty" name="specialty" required>
+
+      <br> 
 
       <label for="phone">Phone Number (Optional)</label>
       <input type="tel" id="phone" name="phone">
 
+      <br> 
+
       <label for="yearsExp">Years of Experience (Optional)</label>
       <input type="number" id="yearsExp" name="yearsExp" min="0">
 
+      <br> 
+
       <label for="address">Address (Optional)</label>
       <textarea id="address" name="address"></textarea>
+
+      <br> 
 
       <label>
         <input type="checkbox" id="serviceAvailable" name="serviceAvailable">
         Currently Available for Service
       </label>
+
+      <br> 
 
       <button type="submit">Sign Up</button>
       <p id="errorMessage" class="error-message"></p>
